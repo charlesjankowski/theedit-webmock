@@ -1,0 +1,112 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #faf6f0;
+  --color-paper: #ffffff;
+  --color-ink: #1f1a17;
+  --color-muted: #5c534c;
+  --color-line: #e7dfd5;
+  --color-accent: #8a3b2a;
+  --color-accent-dark: #6e2d1f;
+  --color-blush: #f1ddd3;
+  --color-sage: #d9e0d0;
+  --color-sand: #eadfcb;
+  --color-plum: #4a2f3f;
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-fraunces), ui-serif, Georgia, serif;
+}
+
+html {
+  background: var(--color-cream);
+  color: var(--color-ink);
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+/* Visible, consistent focus ring for keyboard users. */
+:focus-visible {
+  outline: 3px solid var(--color-accent);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* Long-form article and legal typography. */
+.prose-edit {
+  font-size: 1.0625rem;
+  line-height: 1.75;
+  color: var(--color-ink);
+}
+.prose-edit > * + * {
+  margin-top: 1.1em;
+}
+.prose-edit h2 {
+  font-family: var(--font-serif);
+  font-size: 1.6rem;
+  line-height: 1.25;
+  margin-top: 2em;
+  font-weight: 600;
+}
+.prose-edit h3 {
+  font-size: 1.15rem;
+  font-weight: 650;
+  margin-top: 1.6em;
+}
+.prose-edit ul,
+.prose-edit ol {
+  padding-left: 1.4em;
+}
+.prose-edit ul {
+  list-style: disc;
+}
+.prose-edit ol {
+  list-style: decimal;
+}
+.prose-edit li + li {
+  margin-top: 0.4em;
+}
+.prose-edit li::marker {
+  color: var(--color-accent);
+}
+.prose-edit a {
+  color: var(--color-accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.prose-edit a:hover {
+  color: var(--color-accent-dark);
+}
+.prose-edit strong {
+  font-weight: 650;
+}
+.prose-edit blockquote {
+  border-left: 3px solid var(--color-accent);
+  padding-left: 1em;
+  color: var(--color-muted);
+  font-style: italic;
+}
+.prose-edit table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+.prose-edit th,
+.prose-edit td {
+  border-bottom: 1px solid var(--color-line);
+  padding: 0.6em 0.5em;
+  text-align: left;
+  vertical-align: top;
+}
+.prose-edit th {
+  font-weight: 650;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
+}
