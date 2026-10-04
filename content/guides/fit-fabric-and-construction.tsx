@@ -148,7 +148,7 @@ export const guide: Guide = {
       </p>
       <p>
         When YourEdit suggests a piece, it aims to surface fabric and care details up front, so you can make these
-        judgements before you tap through to the retailer.
+        judgements before you buy.
       </p>
     </>
   ),

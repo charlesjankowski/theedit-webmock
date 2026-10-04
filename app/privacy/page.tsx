@@ -83,6 +83,14 @@ export default function Privacy() {
         it&apos;s handled.
       </p>
 
+      <h2>In-app purchases (future)</h2>
+      <p>
+        When the app launches, you&apos;ll be able to buy pieces from retailers within it. That will involve processing
+        order, delivery and payment information. Before launch, we&apos;ll update this policy to explain what is
+        collected, who receives it (including the retailer fulfilling your order and any payment processor), and how
+        it&apos;s protected. No purchases or payments are possible through this website.
+      </p>
+
       <h2>Affiliate links (future)</h2>
       <p>
         There are no affiliate links on this site today. In the future, some links to retailers may be affiliate links,

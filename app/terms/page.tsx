@@ -55,6 +55,13 @@ export default function Terms() {
         email.
       </p>
 
+      <h2>Buying through the app</h2>
+      <p>
+        When the app launches, you&apos;ll be able to buy pieces from retailers within {siteConfig.appName}. The app&apos;s
+        own terms will set out who sells each item and how payment, delivery and returns work. Nothing can be bought
+        through this website.
+      </p>
+
       <h2>Links to other sites</h2>
       <p>
         The site may link to other websites, including retailers in the future. We don&apos;t control those sites and

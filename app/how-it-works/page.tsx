@@ -9,7 +9,7 @@ import { siteConfig, suggestionsExplainer } from "@/site.config";
 export const metadata = pageMetadata({
   title: "How it works",
   description:
-    "Share your taste, set the occasion, refine the suggested look, then tap through to the retailer to buy. Here's the full path in YourEdit, step by step.",
+    "Share your taste, set the occasion, refine the suggested look, then buy the pieces you choose without leaving the app. Here's the full path in YourEdit, step by step.",
   path: "/how-it-works",
 });
 
@@ -41,12 +41,12 @@ const detail = [
     ],
   },
   {
-    title: "Refine it, then tap through",
+    title: "Refine it, then buy",
     screen: <RefineScreen />,
-    label: "Refine screen with shoe alternatives and a View at retailer button",
+    label: "Refine screen with shoe alternatives and a Buy pieces button",
     body: [
       "Not quite right? Swap one piece for alternatives that keep the look together, or tell your stylist what to change. Save the looks you love.",
-      "When you're ready, tap “View at retailer”. The piece opens on the retailer's own website, where you can check sizing, details and returns, and buy directly from them. YourEdit doesn't sell clothing or handle payments.",
+      "When you're ready, tap “Buy pieces” to purchase from the retailer right in the app, without opening another website. Before launch, we'll explain exactly who sells each item and how payment, delivery and returns work.",
     ],
   },
 ];
@@ -64,7 +64,7 @@ const faqs = [
   { q: "How are suggestions generated?", a: <>{suggestionsExplainer} You can read more in our <Link href="/privacy">privacy policy</Link>.</> },
   {
     q: "Do I buy clothes through YourEdit?",
-    a: "No. When you choose a piece, you tap through to the retailer's own website and buy from them, under their terms, sizing and returns policies.",
+    a: "Yes. When YourEdit launches, you'll be able to buy the pieces you choose from retailers directly in the app. Before then, we'll explain exactly who sells each item and how payment, delivery and returns work.",
   },
   {
     q: "Is YourEdit connected to any brand or retailer?",

@@ -29,7 +29,7 @@ The app is **YourEdit**, a virtual fashion stylist. It learns your taste, your v
 | Route | Content |
 | --- | --- |
 | `/` | One-sentence value prop, who it's for, 3–4 UI mockups/screenshots, short feature list, waitlist signup, link to How it works |
-| `/how-it-works` | Step-by-step path: tell the app your taste and occasion, get suggested pieces, refine the look, tap through to the retailer. Make the shopping path explicit with an illustrated flow |
+| `/how-it-works` | Step-by-step path: tell the app your taste and occasion, get suggested pieces, refine the look, buy the pieces from the retailer inside the app (in-app checkout, planned for launch). Make the shopping path explicit with an illustrated flow |
 | `/guides` and `/guides/[slug]` | **Five original, genuinely useful styling guides (600–900 words each):** decoding wedding dress codes; finding your style vibe; building a capsule wardrobe; first-date and interview outfits; judging fit, fabric, and construction. Illustrated with repo-authored garment and moodboard SVGs. Factual, no invented statistics, no unverifiable claims, no real brands |
 | `/about` | Who we are, why we built it, honest status: "in development for iOS" |
 | `/contact` | Real email on our domain; simple form optional |
@@ -67,6 +67,7 @@ All values are filled in. `scripts/check-config.mjs` blocks production builds if
 - Vercel Web Analytics: on, disclosed in the privacy policy.
 - Domain: owner registers youredit.app themselves.
 - Legal/operating name: "YourEdit".
+- Purchasing: planned in-app checkout from retailers (no retailer partnerships yet). Copy describes it as available at launch; no "luxury" or "connected to retailers" claims until partnerships exist.
 - Not-affiliated statement: generic ("not affiliated with, endorsed by, or sponsored by any retailer or brand"). Owner approved dropping the Simon Property Group mention after the styling repositioning.
 - How suggestions are generated: by a third-party AI model provider (name TBC, set `aiProvider` in site.config.ts). Stated plainly on How it works, the FAQ and the Privacy Policy only.
 

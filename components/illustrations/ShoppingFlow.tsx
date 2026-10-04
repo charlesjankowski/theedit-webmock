@@ -1,4 +1,4 @@
-import { Palette, CalendarHeart, SlidersHorizontal, ExternalLink, ChevronRight, ChevronDown } from "lucide-react";
+import { Palette, CalendarHeart, SlidersHorizontal, ShoppingBag, ChevronRight, ChevronDown } from "lucide-react";
 import { Garment } from "@/components/illustrations/Garment";
 
 const steps = [
@@ -21,14 +21,14 @@ const steps = [
     art: <Garment kind="blazer" fill="#eadfcb" accent="#8a3b2a" className="h-16 w-auto" />,
   },
   {
-    icon: ExternalLink,
-    title: "Tap through to the retailer",
-    body: "Open a piece on the retailer's own site to check details and buy there.",
+    icon: ShoppingBag,
+    title: "Buy in the app",
+    body: "Purchase the pieces you choose from the retailer without leaving YourEdit.",
     art: <Garment kind="bag" fill="#8a3b2a" accent="#6e2d1f" className="h-16 w-auto" />,
   },
 ];
 
-/** Illustrated four-step path from taste to retailer. HTML + authored SVG. */
+/** Illustrated four-step path from taste to purchase. HTML + authored SVG. */
 export function ShoppingFlow() {
   return (
     <ol className="grid gap-3 lg:grid-cols-[1fr_auto_1fr_auto_1fr_auto_1fr] lg:items-stretch">

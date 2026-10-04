@@ -144,7 +144,7 @@ export function RefineScreen() {
       </div>
       <div className="mt-4 flex gap-2">
         <div className="flex-1 rounded-full border border-ink py-2.5 text-center text-[12px] font-semibold text-ink">Save look</div>
-        <div className="flex-1 rounded-full bg-accent py-2.5 text-center text-[12px] font-semibold text-cream">View at retailer</div>
+        <div className="flex-1 rounded-full bg-accent py-2.5 text-center text-[12px] font-semibold text-cream">Buy pieces</div>
       </div>
     </div>
   );
