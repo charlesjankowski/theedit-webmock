@@ -19,7 +19,7 @@ export const siteConfig = {
   // FlexOffers site-ownership verification meta tag content, filled in later.
   verificationMetaTag: "",
   notAffiliatedStatement:
-    "YourEdit is an independent product. It is not affiliated with, endorsed by, or sponsored by Simon Property Group or any retailer or brand.",
+    "YourEdit is an independent product. It is not affiliated with, endorsed by, or sponsored by any retailer or brand.",
   // Third-party AI model provider that generates suggestions. Name it here once
   // confirmed; copy falls back to "a third-party AI model provider".
   aiProvider: "",

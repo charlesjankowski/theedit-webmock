@@ -67,6 +67,7 @@ All values are filled in. `scripts/check-config.mjs` blocks production builds if
 - Vercel Web Analytics: on, disclosed in the privacy policy.
 - Domain: owner registers youredit.app themselves.
 - Legal/operating name: "YourEdit".
+- Not-affiliated statement: generic ("not affiliated with, endorsed by, or sponsored by any retailer or brand"). Owner approved dropping the Simon Property Group mention after the styling repositioning.
 - How suggestions are generated: by a third-party AI model provider (name TBC, set `aiProvider` in site.config.ts). Stated plainly on How it works, the FAQ and the Privacy Policy only.
 
 ## SEO, accessibility, trust signals
