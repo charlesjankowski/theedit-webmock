@@ -17,7 +17,7 @@ export const siteConfig = {
   // Keep false until the affiliate program is approved. Drives /affiliate-disclosure wording.
   affiliateLinksActive: false,
   // FlexOffers site-ownership verification meta tag content, filled in later.
-  verificationMetaTag: "",
+  verificationMetaTag: '<meta name="fo-verify" content="88071500-8d39-47f8-8510-5c5f191072e4" />',
   notAffiliatedStatement:
     "YourEdit is an independent product. It is not affiliated with, endorsed by, or sponsored by any retailer or brand.",
   // Third-party AI model provider that generates suggestions. Name it here once
